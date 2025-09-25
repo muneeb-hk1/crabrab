@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  display: inline-block;
+}
+
+.anc_tag {
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.anc_tag_seen {
+  background-color: #83838323;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 9px 20px;
+}
+
+.font_arrow {
+  font-size: 13px;
+}
+
+.main_bg {
+  background-image: url("../public/images/main_bg.gif");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.product_main {
+  background-image: url("../public/images/grid.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.lang_tab_list {
+  display: flex;
+}
+
+.lang_tab_list li button {
+  padding: 8px 10px;
+  border: 1px solid #041d0b;
+}
+
+.lang_tab_list .active {
+  background-color: #041d0b;
+}
+
+.lang_content pre {
+  border: 1px solid #4c4c4c;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.api_build_stages {
+  border: 1px solid #464646;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 15px;
+  border-radius: 24px;
+  background-color: #0f0f0fbd;
+  margin-top: 20px;
+}
+
+.api_build_stages span:nth-child(1) {
+  background-color: #202020;
+  border-radius: 100px;
+  height: 8px;
+  width: 8px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps_showcase {
+  background-color: rgb(17, 17, 17);
+}
+
+.steps_head_dots div {
+  width: 12px;
+  height: 12px;
+  background-color: #ad2121;
+  border-radius: 100px;
+}
+
+.steps_head_dots div:nth-child(2) {
+  background-color: #cbcb39;
+}
+
+.steps_head_dots div:nth-child(3) {
+  background-color: #209020;
+}
+
+.steps_tab_head ul li button {
+  padding: 6px 15px;
+  margin: 2px 0px;
+  background-color: #8080802e;
+  border-radius: 4px;
+}
+
+.form_content {
+  background-color: #1a1a1a7a;
+  border: 1px solid #1c1c1c;
+}
+
+.form_showcase {
+  position: relative;
+}
+
+.form_showcase div:nth-child(1) {
+  left: 24%;
+  top: 52%;
+}
+
+.form_showcase div:nth-child(2) {
+  right: 6%;
+  top: 38%;
+  transform: rotate(20deg);
+}
+
+.form_showcase div:nth-child(3) {
+  top: 70%;
+  right: 8%;
+  transform: rotate(20deg);
+}
+.form_showcase div:nth-child(4) {
+  top: 40%;
+  left: 8%;
+  transform: rotate(-30deg);
+}
+
+.form_showcase div:nth-child(5) {
+  top: 70%;
+  left: 8%;
+  transform: rotate(-20deg);
+}
+
+.form_showcase div:nth-child(6) {
+  top: 21%;
+  left: 30%;
+  transform: rotate(0deg);
+}
+
+.form_showcase_box {
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid #0d542b;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 2px 2px 4px #0d542b;
+}
+
+.form_connect_box {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.form_connect_box h4 {
+  font-size: 18px;
+}
+
+.form_connect_box img {
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.foot_layout div h5 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-decoration: 1px underline;
+}
+
+.foot_layout div ul .backlight {
+  background-color: red;
+  padding: 2px 2px;
+  border-radius: 4px;
+  display: inline-block;
+  animation: backlight 4s ease infinite;
+}
+
+@keyframes backlight {
+  0% {
+    background-image: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      180deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+  }
+}
+
+.foot_layout div ul li a {
+  color: #b9b9b9;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 2px 10px;
+}
+
+.foot_layout div ul li a:hover {
+  text-decoration: 1px underline;
+}
+
+.anc_backlight {
+  background-color: black;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: black;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 1; /* Firefox */
+}
